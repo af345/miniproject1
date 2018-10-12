@@ -14,16 +14,16 @@ class main  {
 
  $records = csv::getRecords($filename);
 
- print_r($records);
+ $record = recordFactory::create();
+
+ print_r($record);
     }
 }
 
-class csv
-{
+class csv {
 
 
-    static public function getRecords($filename)
-    {
+    static public function getRecords($filename) {
 
         $file = fopen("$filename", "r");
 
@@ -40,5 +40,15 @@ class csv
     }
 }
 
+class record {}
 
+class recordFactory{
+
+    public static function create(Array $array = null) {
+
+        $record = new record();
+
+        return $record;
+    }
+}
 
