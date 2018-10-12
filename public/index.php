@@ -39,9 +39,17 @@ class csv {
 
 class record {
 
-    public function __construct($record)
+    public function __construct(Array $record = null)
     {
-        print_r($record);
+
+        $this->createProperty();
+
+        print_r($this);
+    }
+
+    public function createProperty($name = 'first', $value = "Alexandra") {
+
+        $this->{$name} = $value;
     }
 }
 
