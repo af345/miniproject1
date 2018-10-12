@@ -47,15 +47,15 @@
           <entry key="csv" value="110" />
           <entry key="gitignore" value="15" />
           <entry key="md" value="29" />
-          <entry key="php" value="3641" />
-          <entry key="txt" value="501" />
+          <entry key="php" value="3891" />
+          <entry key="txt" value="555" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="29" />
-          <entry key="PHP" value="3641" />
-          <entry key="PLAIN_TEXT" value="692" />
+          <entry key="PHP" value="3891" />
+          <entry key="PLAIN_TEXT" value="746" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -83,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+            <state relative-caret-position="267">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -214,7 +214,7 @@
       <updated>1539137725640</updated>
       <workItem from="1539137727283" duration="3849000" />
       <workItem from="1539213288074" duration="13196000" />
-      <workItem from="1539303686626" duration="11626000" />
+      <workItem from="1539303686626" duration="12952000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Initial Project Setup">
       <created>1539140663687</created>
@@ -328,11 +328,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539314585357</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Feature: created a property with 1 name and 1 value">
+      <created>1539316491519</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1539316491519</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28671000" />
+    <option name="totallyTimeSpent" value="29997000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="781" height="759" extended-state="6" />
@@ -381,7 +388,8 @@
     <MESSAGE value="Feature: created factory which only allows for arrays" />
     <MESSAGE value="Feature: code prints out array of objects, data not printing yet" />
     <MESSAGE value="Feature: code prints out array of objects, data prints" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feature: code prints out array of objects, data prints" />
+    <MESSAGE value="Feature: created a property with 1 name and 1 value" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature: created a property with 1 name and 1 value" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/composer.json">
@@ -414,8 +422,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+        <state relative-caret-position="267">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
