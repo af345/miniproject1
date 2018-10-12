@@ -47,15 +47,15 @@
           <entry key="csv" value="110" />
           <entry key="gitignore" value="15" />
           <entry key="md" value="29" />
-          <entry key="php" value="3373" />
-          <entry key="txt" value="376" />
+          <entry key="php" value="3394" />
+          <entry key="txt" value="430" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="29" />
-          <entry key="PHP" value="3373" />
-          <entry key="PLAIN_TEXT" value="567" />
+          <entry key="PHP" value="3394" />
+          <entry key="PLAIN_TEXT" value="621" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -83,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+            <state relative-caret-position="192">
+              <caret line="33" column="49" lean-forward="true" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -214,7 +214,7 @@
       <updated>1539137725640</updated>
       <workItem from="1539137727283" duration="3849000" />
       <workItem from="1539213288074" duration="13196000" />
-      <workItem from="1539303686626" duration="8214000" />
+      <workItem from="1539303686626" duration="8869000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Initial Project Setup">
       <created>1539140663687</created>
@@ -307,11 +307,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539310288393</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Feature: created factory which only allows for arrays">
+      <created>1539313063056</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1539313063056</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25259000" />
+    <option name="totallyTimeSpent" value="25914000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="781" height="759" extended-state="6" />
@@ -357,7 +364,8 @@
     <MESSAGE value="Fix: Moved example.csv to public folder" />
     <MESSAGE value="Feature: getting code to read csv file" />
     <MESSAGE value="Feature: getting code to be able to insert any csv and be able to be read" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feature: getting code to be able to insert any csv and be able to be read" />
+    <MESSAGE value="Feature: created factory which only allows for arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature: created factory which only allows for arrays" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/composer.json">
@@ -390,8 +398,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+        <state relative-caret-position="192">
+          <caret line="33" column="49" lean-forward="true" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
         </state>
       </provider>
     </entry>
