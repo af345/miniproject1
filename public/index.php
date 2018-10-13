@@ -32,13 +32,18 @@ class html
 
                 $array = $record->returnArray();
                 $fields = array_keys($array);
+                $values= array_values($array);
                 print_r($fields);
+                print_r($values);
 
             } else {
+                $array = $record->returnArray();
+                $values= array_values($array);
 
+                print_r($values);
             }
 
-            print_r($record);
+            $count++;
 
         }
 
