@@ -41,18 +41,18 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="ProcFile" value="66" />
-          <entry key="csv" value="138" />
-          <entry key="gitignore" value="15" />
+          <entry key="csv" value="153" />
+          <entry key="gitignore" value="21" />
           <entry key="md" value="29" />
           <entry key="php" value="5107" />
-          <entry key="txt" value="1013" />
+          <entry key="txt" value="1029" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="29" />
           <entry key="PHP" value="5107" />
-          <entry key="PLAIN_TEXT" value="1232" />
+          <entry key="PLAIN_TEXT" value="1269" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -66,7 +66,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/readme.md">
+        <entry file="file://$PROJECT_DIR$/../is601-miniproject1/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor>
@@ -77,29 +77,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/index.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../is601-miniproject1/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/../is601-miniproject1/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/example.csv">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../is601-miniproject1/public/example.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+              <caret line="2" column="46" lean-forward="true" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -123,6 +123,7 @@
         <option value="$PROJECT_DIR$/public/example.csv" />
         <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/../is601-miniproject1/public/example.csv" />
       </list>
     </option>
   </component>
@@ -154,12 +155,12 @@
         <subPane>
           <expand>
             <path>
-              <item name="is601-mp1a" type="b2602c69:ProjectViewProjectNode" />
-              <item name="is601-mp1a" type="462c0819:PsiDirectoryNode" />
+              <item name="is601-miniproject1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="is601-miniproject1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="is601-mp1a" type="b2602c69:ProjectViewProjectNode" />
-              <item name="is601-mp1a" type="462c0819:PsiDirectoryNode" />
+              <item name="is601-miniproject1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="is601-miniproject1" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -174,7 +175,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -213,7 +214,7 @@
       <workItem from="1539137727283" duration="3849000" />
       <workItem from="1539213288074" duration="13196000" />
       <workItem from="1539303686626" duration="13519000" />
-      <workItem from="1539387899594" duration="8041000" />
+      <workItem from="1539387899594" duration="9219000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Initial Project Setup">
       <created>1539140663687</created>
@@ -397,20 +398,28 @@
       <option name="project" value="LOCAL" />
       <updated>1539398176147</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Task: added vendor to gitingore">
+      <created>1539398639189</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1539398639189</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38605000" />
+    <option name="totallyTimeSpent" value="39783000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="781" height="759" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2217687" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2217687" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290938" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32591414" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -420,7 +429,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.6518283" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.6518283" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.3290938" />
       <window_info active="true" anchor="bottom" id="Command Line Tools Console" order="13" weight="0.32854864" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -459,14 +468,15 @@
     <MESSAGE value="Feature: prints array keys with objects" />
     <MESSAGE value="Feature: prints ONE array of keys and with as many values as there are in the csv file" />
     <MESSAGE value="Task: Made a gitingore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task: Made a gitingore" />
+    <MESSAGE value="Task: added vendor to gitingore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task: added vendor to gitingore" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/composer.json">
+    <entry file="file://$PROJECT_DIR$/../is601-miniproject1/composer.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ProcFile" />
-    <entry file="file://$PROJECT_DIR$/readme.md">
+    <entry file="file://$PROJECT_DIR$/../is601-miniproject1/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor>
@@ -476,24 +486,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/example.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/../is601-miniproject1/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
+    <entry file="file://$PROJECT_DIR$/../is601-miniproject1/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../is601-miniproject1/public/example.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="46" lean-forward="true" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
         </state>
       </provider>
     </entry>
