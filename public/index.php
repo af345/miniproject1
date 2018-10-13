@@ -13,12 +13,26 @@ class main  {
     static public function start($filename) {
 
  $records = csv::getRecords($filename);
- foreach($records as $record) {
-     $array = $record->returnarray();
-     print_r($array);
- }
+ $table = html::generateTable($records);
 
     }
+
+}
+
+class html
+{
+
+    public static function generateTable($records) {
+
+        foreach ($records as $record) {
+            $array = $record->returnarray();
+            $keys = array_keys($array);
+            print_r($keys);
+
+        }
+
+    }
+
 }
 
 class csv {
