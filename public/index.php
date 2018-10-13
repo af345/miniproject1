@@ -40,7 +40,7 @@ class html
                 $array = $record->returnArray();
                 $values= array_values($array);
 
-                print_r($values);
+               print_r($values);
             }
 
             $count++;
@@ -111,7 +111,72 @@ class recordFactory{
 
         $record = new record($fieldnames, $values);
 
-        return $record;
+       return $record;
     }
 }
 
+/* TABLE ATTEMPT
+function array_to_table($values, $recursive = false, $null = '&nbsp;')
+{
+
+    if (empty($values) || !is_array($values)) {
+        return false;
+    }
+
+    if (!isset($values[0]) || !is_array($values[0])) {
+        $values = array($values);
+
+        $table = "<table>\n";
+
+        $table .= "\t<tr>";
+
+        foreach (array_keys($values[0]) as $heading) {
+            $table .= '<th>' . $heading . '</th>';
+        }
+
+        $table .= "</tr>\n";
+
+        foreach ($values as $row) {
+            $table .= "\t<tr>";
+            foreach ($row as $cell) {
+                $table .= '<td>';
+
+                if (is_object($cell)) {
+                    $cell = (array)$cell;
+                }
+
+                if ($recursive == true && is_array($cell) && !empty($cell)) {
+                    $table . -"\n" . array2table($cell, true, true) . "\n";
+
+                } else {
+                    $table .= (strlen($cell) > 0) ?
+                        htmlspecialchars((string)$cell) :
+                        $null;
+                }
+
+                $table .= '</td>';
+            }
+
+            $table .= "</tr\n";
+
+        }
+        $table .= '</table>';
+        return $table;
+        echo table;
+    }
+
+}
+*/
+
+
+
+/*
+function array_to_table($data, $args=false) {
+    if (!is_array($args)) {$args = array();}
+    foreach (array('class', 'column_widths', 'customer headers', 'format_functions', 'nowrap_head', 'nowrap_body', 'capitalize_headers' )
+        if (array_key_exists($key, $args)) { $$key = $args[key]; } else {$$key = false; }
+    }
+    if ($class) { $class = 'class ="'. $class. '"';} else {$class = '';}
+    if (!is_array($column_widths)) {$column_widths = array();}
+
+*/
