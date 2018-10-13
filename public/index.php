@@ -13,6 +13,10 @@ class main  {
     static public function start($filename) {
 
  $records = csv::getRecords($filename);
+ foreach($records as $record) {
+     $array = $record->returnarray();
+     print_r($array);
+ }
 
     }
 }
@@ -51,12 +55,16 @@ class record {
     {
 
         $record = array_combine($fieldnames, $values);
-
         foreach ($record as $property => $value) {
             $this->createProperty($property, $value);
         }
 
-        print_r($this);
+    }
+
+    public function returnarray() {
+        $array = (array) $this;
+
+        return $array;
 
     }
 
