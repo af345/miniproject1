@@ -24,10 +24,21 @@ class html
 
     public static function generateTable($records) {
 
+        $count = 0;
+
         foreach ($records as $record) {
-            $array = $record->returnarray();
-            $keys = array_keys($array);
-            print_r($keys);
+
+            if($count == 0) {
+
+                $array = $record->returnArray();
+                $fields = array_keys($array);
+                print_r($fields);
+
+            } else {
+
+            }
+
+            print_r($record);
 
         }
 
